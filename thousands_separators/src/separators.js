@@ -1,7 +1,7 @@
 'use strict';
 function thousands_separators(num) {
 	var r1=/^[0]*$/; 	
-	var array,str='';	
+	let array,str='';	
 	//var r2=/000/g;
 	num=num.toString();
 	var index=num.indexOf('.');
